@@ -14,7 +14,7 @@ $ cd projectDir
 $ npm run start
 ```
 ## Running Tests
-Please install mocha or any suitable test library or framework:
+Please install mocha or any suitable test library or framework.
 ```sh
 $ cd projectDir
 $ npm run test
