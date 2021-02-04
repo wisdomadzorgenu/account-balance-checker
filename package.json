@@ -1,0 +1,28 @@
+{
+  "name": "accounttypechecker",
+  "version": "1.0.0",
+  "description": "check account type",
+  "main": "accountTypeChecker.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha test",
+    "start":"node accountTypeChecker.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wisdomadzorgenu/account-balance-checker.git"
+  },
+  "keywords": [
+    "account",
+    "type",
+    "checker"
+  ],
+  "author": "Wisdom Adzorgenu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wisdomadzorgenu/account-balance-checker/issues"
+  },
+  "homepage": "https://github.com/wisdomadzorgenu/account-balance-checker#readme"
+}
