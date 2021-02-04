@@ -18,10 +18,8 @@ const accountTypeChecker = (accountBalanceHistory) => {
    let isFixedBalance = true;
 
    for(let i=0; i<accountBalanceHistory.length; i++){
-      //ensure we have account information
       let account = accountBalanceHistory[i].account ? accountBalanceHistory[i].account : {}
 
-      //use if balance exists in object else 0
       let currentBalance = (account && account.balance && account.balance.amount) ? account.balance.amount:0 
 
       if(previousBalance !== null){
